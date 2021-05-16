@@ -27,19 +27,19 @@ router.get('/:customDate', (req, res) => {
         let unix = parseInt(customDate);
         res.json({
             unix,
-            utc: new Date(unix).toString()
+            utc: new Date(unix).toUTCString()
         })
     } else {
         let dateObj = new Date(customDate);
         // if the route is not a valid date, we throw err
         if(dateObj.toString() === 'Invalid Date'){
             res.json({
-                err: 'Invalid Date'
+                error: 'Invalid Date'
             })
         } else {
             res.json({
                 unix: dateObj.valueOf(),
-                utc: dateObj.toString()
+                utc: dateObj.toUTCString()
             })
         }
     }
