@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "FCC MicroServices Project",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtazaaylak/timestamp.git"
+  },
+  "keywords": [
+    "FCC"
+  ],
+  "author": "murtazaaylak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murtazaaylak/timestamp/issues"
+  },
+  "homepage": "https://github.com/murtazaaylak/timestamp#readme"
+}
