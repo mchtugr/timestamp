@@ -1,0 +1,11 @@
+---
+application:
+  name: "timestamp"
+  project: "timestamp"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-timestamp"
+  routes:
+  - application_name: "timestamp"
+    paths:
+    - "/*"
