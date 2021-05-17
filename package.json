@@ -19,8 +19,7 @@
   ],
   "author": "murtazaaylak",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/murtazaaylak/timestamp/issues"
-  },
-  "homepage": "https://github.com/murtazaaylak/timestamp#readme"
+  "engines": {
+    "node": "14.x"
+  }
 }

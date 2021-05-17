@@ -6,7 +6,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send('Hi')
+    res.sendFile(__dirname + '/index.html')
 })
 
 // Use routes
